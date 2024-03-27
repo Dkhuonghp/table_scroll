@@ -1,2 +1,4 @@
+document.querySelectorAll(".tdname").forEach(element => {
+    element.addEventListener("touchmove", (e) => {e.preventDefault()})
+})
 
-document.querySelector(".tdname").addEventListener("touchmove", (e) => {e.preventDefault()})
