@@ -9,14 +9,13 @@ body {
 .table {
     overflow-x: hidden;
     overflow-y: hidden;
-    max-width: 400px;
+    max-width: calc(100% - 100px);
     height: 200px;
 }
 
 .container {
     overflow:scroll;
     height: 100%;
-    width: 100%;
 }
 
 table {
@@ -34,7 +33,7 @@ table td {
 }
   
 table thead {
+    position: sticky;
     inset-block-start: 0;
     background-color: #ddd;
-    overflow: hidden;
 }
